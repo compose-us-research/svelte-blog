@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: var(--color-palette-green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-regular);
+  font-size: 16pt;
+  font-weight: var(--font-weight-regular);
+  line-height: var(--default-line-height);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-header);
+  margin-bottom: 0.4em;
+}
+
+pre,
+code {
+  font-family: var(--font-family-monospace);
+}
+
+strong {
+  font-weight: var(--font-weight-strong);
+}
+
+section {
+	
+}

@@ -1,0 +1,19 @@
+/* pt-sans-caption-regular - latin */
+@font-face {
+  font-family: "PT Sans Caption";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans Caption"), local("PTSans-Caption"),
+    url("./pt-sans-caption-v10-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./pt-sans-caption-v10-latin-regular.woff") format("woff"); /* Modern Browsers */
+}
+
+/* pt-sans-caption-700 - latin */
+@font-face {
+  font-family: "PT Sans Caption";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PT Sans Caption Bold"), local("PTSans-CaptionBold"),
+    url("./pt-sans-caption-v10-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./pt-sans-caption-v10-latin-700.woff") format("woff"); /* Modern Browsers */
+}
