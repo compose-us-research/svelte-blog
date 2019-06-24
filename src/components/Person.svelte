@@ -14,8 +14,8 @@
       "name   name"
       "image  roles"
       "skills skills";
-    grid-template-rows: 50px 1fr 1fr;
-    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 2fr;
     font-size: 12pt;
   }
   .person .name {
@@ -23,6 +23,10 @@
   }
   .person .image {
     grid-area: image;
+    width: 90%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 50%;
   }
   .person .roles {
     grid-area: roles;
@@ -38,7 +42,16 @@
         "image"
         "roles"
         "skills";
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: auto;
+    }
+
+    .person .image {
+      width: 100%;
+      height: auto;
+    }
+
+    .person .skills {
+      margin-top: 1em;
     }
   }
 </style>
