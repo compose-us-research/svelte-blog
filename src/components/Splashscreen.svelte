@@ -25,8 +25,8 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    border-left: 0.6em solid #f00;
-    border-bottom: 0.6em solid #f00;
+    border-left: 0.6em solid var(--color-section-text);
+    border-bottom: 0.6em solid var(--color-section-text);
     border-radius: 0.3em;
     height: 1.5em;
     transform: rotate(-45deg);
