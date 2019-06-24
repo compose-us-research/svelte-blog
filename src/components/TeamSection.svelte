@@ -17,7 +17,7 @@
   }
 </style>
 
-<Section id="about">
+<Section anchor="about">
   <h2>Über uns</h2>
 
   <div class="person-grid">
