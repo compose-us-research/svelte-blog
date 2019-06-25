@@ -64,7 +64,7 @@
       </p>
     </Box>
     <Box>
-      <img src="/images/todastic-logo.png" alt="Produktmehrwert" />
+      <img src="/images/about-todastic.png" alt="Produktmehrwert" />
       <p>
         Wir möchten
         <strong>mit unseren Produkten Mehrwert schaffen.</strong>
