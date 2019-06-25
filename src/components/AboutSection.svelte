@@ -18,7 +18,7 @@
     grid-template-rows: 1fr 1fr;
     height: auto;
     justify-content: center;
-    width: 220px;
+    width: 240px;
   }
 
   div.boxes img {
