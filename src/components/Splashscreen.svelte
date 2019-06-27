@@ -8,14 +8,14 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 2em;
     position: relative;
     text-align: center;
     flex-direction: column;
-    height: calc(80vh);
+    height: calc(84vh);
   }
 
   img {
+    margin-bottom: 1.5em;
     height: auto;
     width: 90%;
   }
@@ -34,8 +34,12 @@
   }
 
   .slogan {
-    margin-top: 3em;
-    max-width: 30em;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .slogan p {
+    margin-bottom: 1em;
   }
 
   .scroller {
@@ -49,6 +53,21 @@
   .scroller div {
     margin: 1em;
     font-size: 10pt;
+  }
+
+  @media (max-width: 800px) {
+    .scroller div {
+      margin: 0.5em;
+    }
+
+    .slogan {
+      align-content: space-between;
+    }
+
+    .slogan p {
+      text-align: left;
+      font-size: 0.9em;
+    }
   }
 
   @keyframes scroll-down {
@@ -74,7 +93,20 @@
         <strong>Daten nutzbar</strong>
         gemacht werden können.
       </p>
+      <p>
+        Folglich ist
+        <strong>Digitalisierung</strong>
+        notwendig, um die
+        <strong>digitale Transformation</strong>
+        zu bewerkstelligen. Die Verfügbarkeit neuer Technologien erlaubt
+        <strong>
+          neue Herangehensweisen, die es kritisch zu prüfen sowie zügig und
+          sinnvoll zu nutzen gilt.
+        </strong>
+        Dabei können wir helfen.
+      </p>
     </div>
+
     <div class="scroller">
       <div>scroll down</div>
       <div class="chevron" />

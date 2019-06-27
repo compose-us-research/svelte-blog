@@ -51,8 +51,7 @@
         <Box>
           <h2>{post.title}</h2>
           <div class="meta">
-             {new Date(post.publishedAt).toLocaleDateString()} von {post.author}
-
+            {new Date(post.publishedAt).toLocaleDateString()} von {post.author}
           </div>
           <p>{post.description}</p>
           <ul class="tags">

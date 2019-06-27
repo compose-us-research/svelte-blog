@@ -77,6 +77,6 @@
   <div
     id="random-footer"
     on:pointerenter={() => (randomText = getRandomText())}>
-     {randomText}
+    {randomText}
   </div>
 </div>
