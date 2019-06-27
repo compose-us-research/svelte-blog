@@ -86,3 +86,9 @@ npm install -D @sveltejs/svelte-virtual-list
 ## Bugs and feedback
 
 Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+
+
+# Deployment
+
+- build the docker image via `docker build -t compose-us-website:staging .`
+- run it locally with `docker run -p 80:8080 compose-us-website:staging`
