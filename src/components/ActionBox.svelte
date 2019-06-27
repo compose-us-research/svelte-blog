@@ -36,5 +36,5 @@
 </style>
 
 <div class="action-box">
-  <slot class="inherit" />
+  <slot />
 </div>
