@@ -1,0 +1,17 @@
+kind: pipeline
+name: deploy_docker
+
+steps:
+  - name: build_docker
+    image: plugins/docker
+    settings:
+      repo: cloud.canister.io:5000/udo/website
+      username: ud0
+      password:
+        from_secret: docker_pw
+trigger:
+  branch:
+  - master
+  event:
+    exclude:
+    - pull_request
