@@ -14,7 +14,7 @@
     background-color: var(--color-palette-green);
     border-radius: 5px;
     box-shadow: 0 0 var(--shadow-size) var(--color-shadow);
-    color: var(--color-palette-black);
+    color: var(--color-palette-white);
     display: inline-block;
     justify-self: center;
     margin: var(--margin-size);
@@ -25,7 +25,7 @@
   }
 
   .action-box :global(a) {
-    color: var(--color-palette-black);
+    color: var(--color-palette-white);
   }
 
   .action-box:hover {
