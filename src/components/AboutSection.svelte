@@ -68,14 +68,12 @@
     </Box>
   </div>
   <div class="action-boxes">
-    <ActionBox>
-      <a href="tel:0871-20667080">Kontaktiert uns unter 0871-20667080</a>
+    <ActionBox href="tel:0871-20667080">
+      Kontaktiert uns unter 0871-20667080
     </ActionBox>
-    <ActionBox>
-      <a
-        href="mailto:hello@compose.us?subject={encodeURIComponent('Anfrage via Website')}&body={encodeURIComponent('Hallo zusammen,\n\n\nViele Grüße\n')}">
-        Oder per Mail an: hello@compose.us
-      </a>
+    <ActionBox
+      href="mailto:hello@compose.us?subject={encodeURIComponent('Anfrage via Website')}&body={encodeURIComponent('Hallo zusammen,\n\n\nViele Grüße\n')}">
+      Oder per Mail an: hello@compose.us
     </ActionBox>
   </div>
 </Section>

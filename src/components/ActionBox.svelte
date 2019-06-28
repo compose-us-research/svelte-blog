@@ -1,5 +1,6 @@
 <script>
   export let className;
+  export let href;
 </script>
 
 <style>
@@ -35,6 +36,6 @@
   }
 </style>
 
-<div class="action-box">
+<a {href} class="action-box">
   <slot />
-</div>
+</a>

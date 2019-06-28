@@ -1,6 +1,13 @@
 <script>
   import Logo from "./Logo.svelte";
   import Section from "./Section.svelte";
+
+  const scrollDown = () => {
+    const targetElement = document.querySelectorAll(".section")[1];
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 </script>
 
 <style>
@@ -83,7 +90,7 @@
 
 <Section anchor="top">
   <div class="root">
-    <img src="/images/compose-us-black.svg" alt="compose.us" />
+    <img src="/images/compose-us-black.svg" alt="compose.us schwarz logo" />
     <div class="slogan">
       <h2>Unser Angebot</h2>
       <p>
@@ -107,9 +114,10 @@
       </p>
     </div>
 
-    <div class="scroller">
-      <div>scroll down</div>
-      <div class="chevron" />
+    <div class="scroller" aria-label="vorscrollen">
+      <a href="#" on:click={scrollDown}>
+        <div class="chevron" />
+      </a>
     </div>
   </div>
 </Section>

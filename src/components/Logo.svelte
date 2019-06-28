@@ -12,5 +12,5 @@
 </style>
 
 <div>
-  <img src="/images/compose-us-white.svg" alt="compose.us" />
+  <img src="/images/compose-us-white.svg" alt="compose.us weiss logo" />
 </div>
