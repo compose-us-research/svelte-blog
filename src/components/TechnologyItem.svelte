@@ -34,5 +34,5 @@
   {menuItem ? 'menu-item' : ''}"
   on:pointerenter={onPointerEnter}
   on:pointerleave={onPointerLeave}>
-   {label}
+  {label}
 </li>

@@ -32,7 +32,7 @@
       roles={['Programmieren', 'Technische Infrastruktur', 'Unternehmens&shy;kultur']}
       skills={['Pragmatische Lösungen', 'Lernt gern und schnell', 'Große Probleme in kleine, iterativ zu bearbeitenden Teile herunterbrechen']} />
     <Person
-      name="Tina"
+      name="Kristina"
       image="images/team-photos/tina.jpg"
       roles={['Produkt Management', 'Schnittstelle IT und restliche Welt', 'Marketing / Vertrieb']}
       skills={['Digitale Geschäftsmodelle & Start-ups', 'Marketing und Vertrieb', 'Entscheidungen unter Unsicherheit treffen']} />

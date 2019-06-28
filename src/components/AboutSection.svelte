@@ -42,19 +42,7 @@
   }
 </style>
 
-<Section anchor="about">
-  <p>
-    Folglich ist
-    <strong>Digitalisierung</strong>
-    notwendig, um die
-    <strong>digitale Transformation</strong>
-    zu bewerkstelligen. Die Verfügbarkeit neuer Technologien erlaubt
-    <strong>
-      neue Herangehensweisen, die es kritisch zu prüfen sowie zügig und sinnvoll
-      zu nutzen gilt.
-    </strong>
-    Dabei können wir helfen.
-  </p>
+<Section>
   <div class="boxes">
     <Box>
       <img src="/images/about-create.png" alt="Bau digitaler Produkte" />

@@ -31,7 +31,7 @@
     text-decoration: none;
   }
 
-  a.selected {
+  a .selected {
     text-decoration: underline;
   }
 
@@ -43,10 +43,6 @@
     .menu a {
       display: none;
     }
-
-    /* .menu a.blog {
-      display: block;
-    } */
   }
 </style>
 
@@ -55,18 +51,27 @@
     <Logo />
   </a>
   <div class="menu">
-    <a class={segment === '' ? 'selected' : ''} href="/">Unser Angebot</a>
+    <a class={segment === '' ? 'selected' : ''} href="/#top">Unser Angebot</a>
     <a class={segment === 'about' ? 'selected' : ''} href="/#about">Über uns</a>
-    <a class={segment === 'partner' ? 'selected' : ''} href="/#partner">Partner</a>
-    <a class={segment === 'contact' ? 'selected' : ''} href="/#contact">Kontakt</a>
+    <a class={segment === 'partner' ? 'selected' : ''} href="/#partner">
+      Partner
+    </a>
+    <a class={segment === 'contact' ? 'selected' : ''} href="/#contact">
+      Kontakt
+    </a>
     <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-    <!-- <a
+    <a
       rel="prefetch"
       class="blog {segment === 'blog' ? 'selected' : ''}"
       href="blog">
       Blog
-    </a> -->
-    <a rel="prefetch" class={segment === 'imprint' ? 'selected' : ''} href="/imprint">Impressum</a>
+    </a>
+    <a
+      rel="prefetch"
+      class={segment === 'imprint' ? 'selected' : ''}
+      href="/imprint">
+      Impressum
+    </a>
   </div>
 </nav>
