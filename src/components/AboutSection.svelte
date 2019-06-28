@@ -18,7 +18,7 @@
     grid-template-rows: 1fr 1fr;
     height: auto;
     justify-content: center;
-    width: 220px;
+    width: 240px;
   }
 
   div.boxes img {
@@ -52,7 +52,7 @@
       </p>
     </Box>
     <Box>
-      <img src="/images/todastic-logo.png" alt="Produktmehrwert" />
+      <img src="/images/about-todastic.png" alt="Produktmehrwert" />
       <p>
         Wir möchten
         <strong>mit unseren Produkten Mehrwert schaffen.</strong>
