@@ -1,6 +1,8 @@
 <script>
   import Logo from "./Logo.svelte";
   import Section from "./Section.svelte";
+
+  export let slogan;
 </script>
 
 <style>
@@ -85,26 +87,7 @@
   <div class="root">
     <img src="/images/compose-us-black.svg" alt="compose.us" />
     <div class="slogan">
-      <h2>Unser Angebot</h2>
-      <p>
-        Digitale Transformation bedeutet für uns, dass sich Prozesse
-        <strong>grundlegend und exponentiell ändern,</strong>
-        weil
-        <strong>Daten nutzbar</strong>
-        gemacht werden können.
-      </p>
-      <p>
-        Folglich ist
-        <strong>Digitalisierung</strong>
-        notwendig, um die
-        <strong>digitale Transformation</strong>
-        zu bewerkstelligen. Die Verfügbarkeit neuer Technologien erlaubt
-        <strong>
-          neue Herangehensweisen, die es kritisch zu prüfen sowie zügig und
-          sinnvoll zu nutzen gilt.
-        </strong>
-        Dabei können wir helfen.
-      </p>
+     {slogan}
     </div>
 
     <div class="scroller">

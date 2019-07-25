@@ -1,4 +1,5 @@
 <script>
+  import {onMount} from 'svelte';
   import AboutSection from "../components/AboutSection.svelte";
   import ActionBox from "../components/ActionBox.svelte";
   import Box from "../components/Box.svelte";
@@ -8,6 +9,14 @@
   import Splashscreen from "../components/Splashscreen.svelte";
   import TeamSection from "../components/TeamSection.svelte";
   import TechnologySection from "../components/TechnologySection.svelte";
+
+  let slogan = 'loading..';
+
+  onMount(async () => {
+    const response = await fetch('./content/splash-screen.md');
+    const blob = await response.blob();
+    const slogan = blob.text();
+  });
 </script>
 
 <style>
@@ -22,7 +31,8 @@
   <title>compose.us GmbH</title>
 </svelte:head>
 
-<Splashscreen />
+
+<Splashscreen slogan={slogan} />
 
 <AboutSection />
 
