@@ -1,5 +1,13 @@
+<script context="module">
+export function preload(){
+      return this.fetch('./content/splash-screen.md')
+      .then(response => response.json())
+      .then(data => {
+          slogan = data;
+      })
+  }
+</script>
 <script>
-  import {onMount} from 'svelte';
   import AboutSection from "../components/AboutSection.svelte";
   import ActionBox from "../components/ActionBox.svelte";
   import Box from "../components/Box.svelte";
@@ -10,13 +18,13 @@
   import TeamSection from "../components/TeamSection.svelte";
   import TechnologySection from "../components/TechnologySection.svelte";
 
-  let slogan = 'loading..';
+  export let slogan = 'loading..';
 
-  onMount(async () => {
-    const response = await fetch('./content/splash-screen.md');
-    const blob = await response.blob();
-    const slogan = blob.text();
-  });
+  // onMount(async () => {
+  //   const response = await fetch('./content/splash-screen.md');
+  //   const blob = await response.blob();
+  //   const slogan = blob.text();
+  // });
 </script>
 
 <style>
