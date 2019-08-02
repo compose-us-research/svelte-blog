@@ -61,12 +61,12 @@
     </a>
     <!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-    <a
+    <!--<a
       rel="prefetch"
       class="blog {segment === 'blog' ? 'selected' : ''}"
       href="blog">
       Blog
-    </a>
+    </a>-->
     <a
       rel="prefetch"
       class={segment === 'imprint' ? 'selected' : ''}
